@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+	<item>
+		<name>Body Font</name>
+		<slug>body_font</slug>
+		<type>google_font</type>
+		<std>Istok Web</std>
+		<selector>html,body, pre, #header .header-top-right-area .currency_control a, #header .vertical_menu_header .wd_vertical_cat_content ul li.menu-item .sub-menu h2, #header .vertical_menu_header .wd_vertical_cat_content ul li.menu-item .sub-menu li a, #lang_sel a.lang_sel_sel, html .woocommerce .cart-collaterals .cart_totals .cart_totals_wrapper tr th, html .woocommerce .cart-collaterals .cart_totals .cart_totals_wrapper tr td ul#shipping_method li .amount, html .woocommerce .cart-collaterals .cart_totals .cart_totals_wrapper tr td .amount, table.compare-list tr.title h3 a, .woocommerce .entry-summary .short-description .short-description-title, html .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab > a, .single-project .left_project .post-title .heading-title .wd-edit-link a, .single-project .right_project h5, .widget_nav_menu a, input.wpcf7-submit, #control-panel-main > div .custom-title, #control-panel-main .input-append > input, #control-panel-main select, #control-panel-main option, html .vc_toggle .vc_toggle_title h4, .comments-area ol.comment-list li .comment-meta h3.comment-author, .page_navi .wp-pagenavi span.pages, .wd-custom-sc .product-custom-inner .products section .heading-title.product-title a, .product_sub_category_sc .product_sub_category_wrapper_inner .wd-slider-content section .heading-title.product-title a, .wd-slider-sc .products section .heading-title.product-title a, .top_rated_product_sc .products.grid section.product .product-grid-wrapper .product-meta-wrapper h3.heading-title</selector>
+	</item>
+	<item>
+		<name>Heading Font</name>
+		<slug>heading_font</slug>
+		<type>google_font</type>
+		<std>Archivo Narrow</std>
+		<selector>h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6, table tr th, #header .header-top-right-area .header-top-account .wd_tini_account_wrapper .form_drop_down label, #header .vertical_menu_header .wd_vertical_cat, .customer_choice .wp_box .product_list_widget li .amount, .breadcrumb-title h1, .price, html .woocommerce-cart table.shop_table .product-thumbnail .wd_product_meta h3 a, html .woocommerce-cart table.shop_table .amount, .products section.product .product-grid-wrapper .product-thumbnail-wrapper .product_label span, html .woocommerce span.onsale, table.wishlist_table  td.product-name a, html .wishlist_table tr td.product-price, html body table.compare-list .amount,.woocommerce div.product .entry-summary .price, .woocommerce div.product .entry-summary .amount, .woocommerce .image_summary .images .product_label .featured.product_label, html .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce  div.product .related  span.price, .price_in_table .pricing, .price_in_table .value, .price_in_table .mark, .price_table_inner .price_button a, .wd_myaccount_menu .title, table.shop_table.cart.woocommerce-checkout-review-order-table td.product-total, html .wd_meet_team .info h3 a, ul.list-posts li.home-features-item .post-info-thumbnail .entry-date p.year, ul.list-posts li.home-features-item .post-info-thumbnail .entry-date p.day, ul.list-posts li.home-features-item .post-info-content .heading-title a, .page_navi .wp-pagenavi a, .page_navi .wp-pagenavi span, html .responsive-tabs-wrapper .responsive-tabs__list .responsive-tabs__list__item, html .responsive-tabs .responsive-tabs__panel .products_group section.product .content .amount, .vc_general.vc_tta-tabs.vc_tta-color-sky.vc_tta-controls-align-left .vc_tta-tabs-container .vc_tta-tabs-list li.vc_tta-tab a </selector>
+	</item>
+	<item>
+		<name>Button Font</name>
+		<slug>button_font</slug>
+		<type>google_font</type>
+		<std>Archivo Narrow</std>
+		<selector>html .button,html .woocommerce .button, html .woocommerce .button.alt, .products.list .product-meta-wrapper .list_add_to_cart a.button, html .wd_recent_blogs .item-content .post-info-content .button, .woocommerce div.product .entry-summary form.cart .button, .woocommerce div.product .entry-summary .cart .single_add_to_cart_button, html .woocommerce #review_form #respond p.form-submit .submit, .shortcode-recent-blogs .post-info-content .button, .error404 .site-main .subscribe_widget form button.btn, html .page-template-page-templatescomming-soon-php .subscribe_widget  form .button, ul.list-posts li.home-features-item .post-info-content .read-more a.button</selector>
+	</item>
+	<item>
+		<name>Menu Font</name>
+		<slug>menu_font</slug>
+		<type>google_font</type>
+		<std>Istok Web</std>
+		<selector>.nav .main-menu > ul > li > a , .nav div.menu > ul > li > a, .nav > .main-menu > ul.menu > li > ul.sub-menu</selector>
+	</item>
+</items>

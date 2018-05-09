@@ -1,0 +1,10 @@
+								<div class="wrap ">
+									<div class="fix"></div>
+																											<div class="flickr_badge_image start"><a href="http://www.flickr.com/photos/88351014@N05/8072887131/"><img src="http://farm9.staticflickr.com/8038/8072887131_e3927498c1_s.jpg" alt="A photo on Flickr" title="flickr10" height="75" width="75"></a></div>
+																											<div class="flickr_badge_image"><a href="http://www.flickr.com/photos/88351014@N05/8072880804/"><img src="http://farm9.staticflickr.com/8171/8072880804_e1e21f2b3c_s.jpg" alt="A photo on Flickr" title="flickr9" height="75" width="75"></a></div>
+										
+									<div class="fix"></div>
+									<a class="see-more" href="http://www.flickr.com/photos/88351014@N05">See more</a>
+								</div>
+
+								

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Name: Default
+Slug: color_default
+Description: custom color for default.
+-->
+<items_setting>
+	<general>
+		<text>General</text>
+		<items>
+			<background_item>
+				<name>Background Color</name>
+				<slug>bg_color</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>#template-wrapper, #main-content, #wd-container</selector>
+					</f1>
+				</frontend>
+			</background_item>
+			<item>
+				<name>Text Color</name>
+				<slug>text_color</slug>
+				<std>#666666</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>  body,li a ,
+									#lang_sel ul ul a, #lang_sel ul ul a:visited,
+									
+									#header   .drop_down_container,
+									#header .wd_tini_cart_wrapper .cart_item_wrapper a.wd_cart_title ,
+									#header .header-top-custom-sidebar .drop_down_container li  a,
+									.bbp-pagination-links a,.bbp-pagination-links span,
+									
+									.tabbable .nav-tabs > li.active > a, .tabbable .nav-tabs > li.active > a:hover, .tabbable .nav-tabs > li.active > a:focus,
+									
+									.wp-pagenavi a, .wp-pagenavi span, .woocommerce nav.woocommerce-pagination ul li a, .woocommerce-page nav.woocommerce-pagination ul li a, .woocommerce #content nav.woocommerce-pagination ul li a, .woocommerce-page #content nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span, .woocommerce-page nav.woocommerce-pagination ul li span, .woocommerce #content nav.woocommerce-pagination ul li span, .woocommerce-page #content nav.woocommerce-pagination ul li span,
+									.wpb_content_element .wpb_tabs_nav li > a
+						</selector>
+					</f1>
+					<f2>
+						<attribute>border-color</attribute>
+						<selector>body</selector>
+					</f2>
+				</frontend>
+			</item>		
+			<item>
+				<name>Link Color</name>
+				<slug>link_color</slug>
+				<std>#3c3b48</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>a, html .wd_meet_team .info h3 a:hover, a.text_color:hover,
+							.woocommerce ul.cart_list li a, .woocommerce ul.product_list_widget li a, .woocommerce-page ul.cart_list li a, .woocommerce-page ul.product_list_widget li a
+						</selector>
+					</f1>
+					<f2>
+						<attribute>background</attribute>
+						<selector>.header_v3 .nav .main-menu > ul > li > a:before</selector>
+					</f2>
+				</frontend>
+			</item>	
+			<item>
+				<name>Link Color hover</name>
+				<slug>link_color_hover</slug>
+				<std>#ed764f</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>a:hover, a:focus, html .wd_meet_team .info h3 a, li a:hover, .text_color,
+								#portfolio-galleries .portfolio-filter li.active a,
+								.widget_woothemes_testimonials .testimonials-list .author span:first-child,
+							
+								.post-info-meta div,
+								#header .widget_social li a:hover,
+								#header .header-top-custom-sidebar .drop_down_container li  a:hover,
+								#header .wd_tini_cart_wrapper .cart_item_wrapper a.wd_cart_title:hover,
+								#lang_sel a:hover, #lang_sel ul ul a:hover,
+								
+								.shopping-cart span.amount,ul.cart_list .quantity,
+								
+								.widget_calendar #today,
+								.wd-projects .owl-stage li a:hover h3,
+								
+								.woocommerce #content .quantity .minus:hover, .woocommerce #content .quantity .plus:hover, .woocommerce .quantity .minus:hover, .woocommerce .quantity .plus:hover, .woocommerce-page #content .quantity .minus:hover, .woocommerce-page #content .quantity .plus:hover, .woocommerce-page .quantity .minus:hover, .woocommerce-page .quantity .plus:hover,
+								
+								table.variations .amount,
+								.woocommerce #content div.product .summary p.price, .woocommerce div.product .summary p.price, .woocommerce-page #content div.product .summary p.price, .woocommerce-page div.product .summary p.price,
+								
+								.return-shipping  h3,
+								.wp-pagenavi span.current, .wp-pagenavi a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li span.current,
+								
+								.woocommerce ul.cart_list li a:hover, .woocommerce ul.product_list_widget li a:hover, .woocommerce-page ul.cart_list li a:hover, .woocommerce-page ul.product_list_widget li a:hover,
+								
+								.widget_customrecent .detail a:hover,
+								#bbpress-forums p.bbp-topic-meta a.bbp-author-name,
+								.widget_categories li:hover, .widget_categories li:hover a, .widget_projects_categories li:hover, .widget_projects_categories li:hover a, .widget_product_categories ul li.current-cat > span, .widget_product_categories ul li:hover > span, .widget_product_categories ul li:hover > a, .widget_product_categories ul li.current-cat > a,
+								.wd-right-control-panel button,
+								
+								.ls-v5 .ls-nav-next:hover:before, .ls-v5 .ls-nav-prev:hover:before
+								
+						</selector>
+					</f1>
+					<f2>
+						<attribute>background-color</attribute>
+						<selector>  .line, 
+						
+									html #options ul li#grid:hover, html #options ul li#grid.active, html #options ul li#list:hover, html #options ul li#list.active,
+									
+									#header .header-top-right-area > div:hover,
+									
+									.shopping-cart .dropdown_footer,
+									.form_wrapper_footer,
+									mark,
+									.tabbable .nav-tabs > li > a:before,
+									html .accordion-heading .accordion-toggle,
+									.owl-controls .owl-dots > div:hover > span, .owl-controls .owl-dots > div.active > span,
+									html .wpb_content_element .wpb_tabs_nav li:before,
+									html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header.ui-state-active, html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header:hover,
+									
+									.counting li:before,
+									
+									.wd_myaccount_menu .title
+						</selector>
+					</f2>
+					<f3>
+						<attribute>border-color</attribute>
+						<selector>  blockquote
+						</selector>
+					</f3>
+				</frontend>
+			</item>
+			<item>
+				<name>Heading Color</name>
+				<slug>heading_color</slug>
+				<std>#303030</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6</selector>
+					</f1>
+				</frontend>
+			</item>
+			
+			<item>
+				<name>Border Color</name>
+				<slug>border_color</slug>
+				<std>#ebebeb</std>
+				<frontend>
+					<f1>
+						<attribute>border-color</attribute>
+						<selector>
+									.woocommerce ul.cart_list li, .woocommerce ul.product_list_widget li, .woocommerce-page ul.cart_list li, .woocommerce-page ul.product_list_widget li,
+									
+									#header.header_v3 .header-bottom,										
+									input, select, textarea,
+									
+									.list-posts .post, .list-posts .item-content, .list-posts > li,
+									
+									.shopping-cart ul.cart_list li,
+									.woocommerce form .form-row[class*="form-row-"], .woocommerce-page form .form-row[class*="form-row-"]
+						</selector>
+					</f1>
+				</frontend>
+			</item>
+		</items>
+	</general>	
+	<header>
+		<text>Page Header</text>
+		<items>
+			<background_item>
+				<name>Background header Color</name>
+				<slug>h_bg_color</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>#header, #header.header_v3</selector>
+					</f1>
+				</frontend>
+			</background_item>
+			<item>
+				<name>Background top header Color</name>
+				<slug>h_top_bg_color</slug>
+				<std>#3c3b48</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>#header .header-top,
+								.wd-right-control-panel > div.active
+						</selector>
+					</f1>
+				</frontend>
+			</item>			
+			<item>
+				<name>Text Color</name>
+				<slug>h_text</slug>
+				<std>#f8f8f8</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.wd_tini_wishlist_wrapper > a,
+								.wd_tini_account_control > a,								
+								.wd_tini_wishlist_wrapper > a:hover,
+								.wd_tini_account_control > a:hover,
+								#lang_sel a.lang_sel_sel, #lang_sel a.lang_sel_sel:hover,
+								#header .widget_social li a,
+								
+								.wd-right-control-panel,
+								.wd-right-control-panel > div h1,
+								.wd-right-control-panel ul.cart_list li a,.wd-right-control-panel ul.product_list_widget li a,
+								.woocommerce .wd-right-control-panel ul.cart_list li a, .woocommerce .wd-right-control-panel ul.product_list_widget li a, 
+								.woocommerce-page .wd-right-control-panel ul.cart_list li a, .woocommerce-page .wd-right-control-panel ul.product_list_widget li a,
+								.wd-right-control-panel .shopping-cart .total span.amount,
+								ul.cart_list  .remove:before
+						</selector>
+					</f1>
+				</frontend>
+			</item>	
+			
+			<item>
+				<name>Text Color Cart</name>
+				<slug>h_text_cart</slug>
+				<std>#f8f8f8</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>#header .shopping-cart .wd_tini_cart_control, #header .header-top  div.cart_size > a ,#header .header-top  div.cart_size > a:hover , #header .shopping-cart .wd_tini_cart_control span.amount
+						</selector>
+					</f1>
+				</frontend>
+			</item>	
+			
+		</items>
+	</header>
+	<footer>
+		<text>Page Footer</text>
+		<items>
+			<background_item>
+				<name>Background Footer Color</name>
+				<slug>f_bg_color</slug>
+				<std>#f8f8f8</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>#footer</selector>
+					</f1>
+				</frontend>
+			</background_item>
+			<item>
+				<name>Background Middle Footer Color</name>
+				<slug>f_middle_bg_color</slug>
+				<std>#3c3b48</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>#footer .third-footer-widget-area</selector>
+					</f1>
+				</frontend>
+			</item>
+			<item>
+				<name>Background Bottom Footer Color</name>
+				<slug>f_bottom_bg_color</slug>
+				<std>#2d2c33</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>#footer .fourth-footer-area</selector>
+					</f1>
+				</frontend>
+			</item>
+			<item>
+				<name>Heading Title</name>
+				<slug>f_heading_color</slug>
+				<std>#f8f8f8</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>#footer h3,
+								#footer .third-footer-widget-area,
+								.widget_social .social-icons li a,
+						</selector>
+					</f1>
+				</frontend>
+			</item>	
+			<item>
+				<name>Text Color</name>
+				<slug>f_text</slug>
+				<std>#c5c5c5</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.copy-right .menu li a</selector>
+					</f1>					
+				</frontend>
+			</item>	
+		   <item>
+				<name>Text Color Hover</name>
+				<slug>f_text_hover</slug>
+				<std>#ed764f</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.copy-right .menu li a:hover,
+								.widget_social .social-icons li a:hover,
+								
+								.textwidget i.fa
+						</selector>
+					</f1>
+					<f2>
+						<attribute>border-color</attribute>
+						<selector>.widget_social .social-icons li a:hover
+						</selector>
+					</f2>
+				</frontend>
+			</item>	
+		</items>
+	</footer>
+	<menu>
+		<text>Menu Color</text>
+		<items>
+			<background_item>
+				<name>Background Menu Color</name>
+				<slug>m_bg_color</slug>
+				<std>#f8f8f8</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>#header.header_v3 .header-bottom, .wd-sticky.is-sticky .header-bottom </selector>
+					</f1>
+				</frontend>
+			</background_item>
+			<item>
+				<name>Dropdown background color</name>
+				<slug>mdrop_bg_color</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>.nav > .main-menu > ul.menu > li > ul.sub-menu</selector>
+					</f1>
+					<f2>
+						<attribute>color</attribute>
+						<selector>.home #header.header_v2 .nav .main-menu > ul > li > a,
+								.home #header.header_v2 .menu-drop-icon, #header.header_v2  .wd-header-bottom-search-control i,
+								.home #header.header_v2 .nav > .main-menu > ul.menu > li,
+								.home #header.header_v2 .wd-header-bottom-search-control  i</selector>
+					</f2>
+				</frontend>
+			</item>
+			<item>
+				<name>Text Color</name>
+				<slug>m_text</slug>
+				<std>#666</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>#header .nav,.nav .main-menu > ul > li > a, .nav .main-menu > ul > li.parent:after,
+									.menu-drop-icon,
+									#header .wd-header-bottom-search-control i,
+									
+									.home #header.header_v2 .nav > .main-menu > ul.menu > li ul.sub-menu,
+									.home #header.header_v2 .wd-sticky.is-sticky .nav .main-menu > ul > li > a,
+									.home #header.header_v2 .wd-sticky.is-sticky .menu-drop-icon, 
+									.home #header.header_v2  .wd-sticky.is-sticky .wd-header-bottom-search-control i,
+									.home #header.header_v2 .wd-sticky.is-sticky .nav > .main-menu > ul.menu > li
+						</selector>
+					</f1>
+				</frontend>
+			</item>	
+		   <item>
+				<name>Color Hover</name>
+				<slug>m_text_hover</slug>
+				<std>#ed764f</std>
+				<frontend>
+					<f1>
+						<attribute>border-bottom-color</attribute>
+						<selector>.nav > .main-menu > ul.menu > li > ul.sub-menu,
+									#header .button_search
+						</selector>
+					</f1>
+					<f2>
+						<attribute>color</attribute>
+						<selector>#header .wd-header-bottom-search-control:hover i
+						</selector>
+					</f2>
+					<f3>
+						<attribute>background-color</attribute>
+						<selector>.nav .main-menu > ul > li > a:before
+						</selector>
+					</f3>
+				</frontend>
+			</item>	
+			<item>
+				<name>Text Dropdown Color</name>
+				<slug>mdrop_text</slug>
+				<std>#666</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.nav > .main-menu > ul.menu > li li a, ul.sub-menu h3, ul.sub-menu h2</selector>
+					</f1>
+				</frontend>
+			</item>	
+		   <item>
+				<name>Text Color Hover</name>
+				<slug>mdrop_text_hover</slug>
+				<std>#ed764f</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.nav > .main-menu > ul.menu > li li:hover > a</selector>
+					</f1>
+				</frontend>
+			</item>
+		</items>
+	</menu>
+	<button>
+		<text>Button Primary Color</text>
+		<items>			
+			<item>
+				<name>Button Primary Text</name>
+				<slug>button_primary_text</slug>
+				<std>#3c3b48</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>button.button, button, .buttons a, .btn, button.btn, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, input.button, a.button, .woocommerce input.button.checkout-button.alt:hover, input[type="submit"], .tp-caption a.button.style_1:hover, .owl-controls .owl-nav div,
+						
+						.list_add_to_cart a.button, button.single_add_to_cart_button, a.single_add_to_cart_button, 
+						 html .wd_quickshop_handler,
+						
+						.yith-wcwl-wishlistexistsbrowse  a, 
+						.yith-wcwl-wishlistaddedbrowse a,
+						.add_to_wishlist,
+						.summary  .yith-wcwl-wishlistaddedbrowse a,
+						.summary .yith-wcwl-wishlistexistsbrowse a, 
+						.summary .yith-wcwl-wishlistaddedbrowse.show a, .summary .yith-wcwl-wishlistexistsbrowse.show a,
+						.summary  .add_to_wishlist,
+						
+						.compare,
+						
+						html body table.compare-list tr.add-to-cart td a
+						</selector>
+					</f1>
+					<f2>
+						<attribute>border-color</attribute>
+						<selector>button.button, button, .buttons a, .btn, button.btn, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, input.button, a.button, .woocommerce input.button.checkout-button.alt:hover, input[type="submit"], .tp-caption a.button.style_1:hover, .owl-controls .owl-nav div,
+						
+						html body table.compare-list tr.add-to-cart td a</selector>
+					</f2>
+					<f3>
+						<attribute>background-color</attribute>
+						<selector>.ls-container a.button,.tp-caption  a.button, 
+									.ls-container a.button.style_1:hover,.tp-caption  a.button.style_1:hover,
+									
+									.summary  .yith-wcwl-wishlistaddedbrowse a:hover,
+									.summary .yith-wcwl-wishlistexistsbrowse a:hover, 
+									.summary  .add_to_wishlist:hover,
+									.summary .compare:hover, .summary .compare.added:hover
+							</selector>
+					</f3>
+				</frontend>
+			</item>	
+			<item>
+				<name>Button Primary Text Hover</name>
+				<slug>button_primary_text_hover</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.woocommerce #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .btn:hover, button.button:hover, input.button:hover, a.button:hover, input.button.checkout-button.alt, input[type="submit"]:hover, 
+						.subscribe_widget button,.subscribe_widget .btn,
+						.woocommerce .subscribe_widget button,
+						.woocommerce .subscribe_widget .btn,
+						.woocommerce-page .subscribe_widget button,
+						.woocommerce-page .subscribe_widget .btn, 
+						
+						.tp-caption a.button.style_1,
+						
+						.home ul.archive-product-subcategories .owl-controls .owl-nav div:hover,
+						
+						html .woocommerce  .summary .single_add_to_cart_button:hover,
+						html .woocommerce-page  .summary .single_add_to_cart_button:hover,
+						
+						.tagcloud a:hover,
+						
+						.ls-container a.button,
+						.tp-caption  a.button,
+						
+						.summary  .yith-wcwl-wishlistaddedbrowse a:hover,
+						.summary .yith-wcwl-wishlistexistsbrowse a:hover, 
+						.summary  .add_to_wishlist:hover,
+						.summary .compare:hover,
+						.summary .compare.added:hover,
+						
+						html body table.compare-list tr.add-to-cart td a:hover,
+						
+						.wd-right-control-panel .shopping-cart .dropdown_footer p a.button,
+						.wd-right-control-panel input#searchsubmit
+						</selector>
+					</f1>
+				</frontend>
+			</item>			
+			<item>
+				<name>Button Primary Background Hover</name>
+				<slug>button_primary_bg_hover</slug>
+				<std>#ed764f</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>.woocommerce #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .btn:hover, button.button:hover, input.button:hover, a.button:hover, input.button.checkout-button.alt, input[type="submit"]:hover, 						.subscribe_widget button,.subscribe_widget .btn,
+						.woocommerce .subscribe_widget button,
+						.woocommerce .subscribe_widget .btn,
+						.woocommerce-page .subscribe_widget button,
+						.woocommerce-page .subscribe_widget .btn, .tp-caption a.button.style_1,
+						
+						.home ul.archive-product-subcategories .owl-controls .owl-nav div:hover,
+						
+						html .woocommerce  .summary .single_add_to_cart_button:hover,
+						html .woocommerce-page  .summary .single_add_to_cart_button:hover,
+						
+						.tagcloud a:hover,
+						
+						.ls-container a.button:hover,
+						.tp-caption  a.button:hover,
+						.ls-container a.button.style_1,
+						.tp-caption  a.button.style_1,
+						.summary  .yith-wcwl-wishlistaddedbrowse a:hover,
+						.summary .yith-wcwl-wishlistexistsbrowse a:hover, 
+						.summary  .add_to_wishlist:hover,
+						.summary .compare:hover,
+						.summary .compare.added:hover,
+						
+						html body table.compare-list tr.add-to-cart td a:hover,
+						
+						.wd-right-control-panel .shopping-cart .dropdown_footer p a.button,
+						.wd-right-control-panel input#searchsubmit,
+						
+						.shortcode_wd_banner_inner .button:hover
+						</selector>
+					</f1>
+					<f2>
+						<attribute>border-color</attribute>
+						<selector>.woocommerce #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .btn:hover, button.button:hover, input.button:hover, a.button:hover, input.button.checkout-button.alt, input[type="submit"]:hover, 						.subscribe_widget button,.subscribe_widget .btn,
+						.woocommerce .subscribe_widget button,
+						.woocommerce .subscribe_widget .btn,
+						.woocommerce-page .subscribe_widget button,
+						.woocommerce-page .subscribe_widget .btn, .tp-caption a.button.style_1,
+						
+						.home ul.archive-product-subcategories .owl-controls .owl-nav div:hover,
+						
+						html .woocommerce  .summary .single_add_to_cart_button:hover,
+						html .woocommerce-page  .summary .single_add_to_cart_button:hover,
+						
+						.tagcloud a:hover,
+						
+						html body table.compare-list tr.add-to-cart td a:hover,
+						
+						.wd-right-control-panel .shopping-cart .dropdown_footer p a.button,
+						.wd-right-control-panel input#searchsubmit,
+						.shortcode_wd_banner_inner .button:hover
+						</selector>
+					</f2>
+					<f3>
+						<attribute>color</attribute>
+						<selector>html .list_add_to_cart a.button:before, html button.single_add_to_cart_button:before, html a.single_add_to_cart_button:before,
+						html .list_add_to_cart a.button:hover, html button.single_add_to_cart_button:hover, html a.single_add_to_cart_button:hover,
+						.yith-wcwl-wishlistexistsbrowse a:hover,.yith-wcwl-wishlistaddedbrowse a:hover, .add_to_wishlist:hover, html .wd_quickshop_handler:hover,
+						.sidebar-content .subscribe_widget button:hover,
+						html .woocommerce .sidebar-content .subscribe_widget button:hover,
+						html .woocommerce-page .sidebar-content .subscribe_widget button:hover,
+						
+						.yith-wcwl-wishlistaddedbrowse.show a,
+						.yith-wcwl-wishlistexistsbrowse.show a,
+						
+						.compare:hover,
+						.compare.added
+						
+						
+						</selector>
+					</f3>
+				</frontend>
+			</item>
+										
+		</items>
+	</button>
+	<button2>
+		<text>Button Secondary Color</text>
+		<items>
+			
+			<item>
+				<name>Button Secondary </name>
+				<slug>button_secondary</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>border-color</attribute>
+						<selector>html button.button-white,
+								html  input.button-white,
+								html  a.button-white,
+								html .woocommerce button.button-white,
+								html  .woocommerce input.button-white,
+								html  .woocommerce a.button-white,
+								html .woocommerce-page button.button-white,
+								html  .woocommerce-page input.button-white,
+								html  .woocommerce-page a.button-white,
+								.subscribe_widget button:hover,
+								.subscribe_widget .btn:hover,
+								html .woocommerce .subscribe_widget button:hover,
+								html .woocommerce .subscribe_widget .btn:hover,
+								html .woocommerce-page .subscribe_widget button:hover,
+								html .woocommerce-page .subscribe_widget .btn:hover,
+								
+								.wd-right-control-panel .shopping-cart .dropdown_footer p a.button:hover,
+								.wd-right-control-panel input#searchsubmit:hover</selector>
+					</f1>
+					<f2>
+						<attribute>color</attribute>
+						<selector>html button.button-white,
+								html  input.button-white,
+								html  a.button-white,
+								html .woocommerce button.button-white,
+								html  .woocommerce input.button-white,
+								html  .woocommerce a.button-white,
+								html .woocommerce-page button.button-white,
+								html  .woocommerce-page input.button-white,
+								html  .woocommerce-page a.button-white,
+								.subscribe_widget button:hover,
+								.subscribe_widget .btn:hover,
+								html .woocommerce .subscribe_widget button:hover,
+								html .woocommerce .subscribe_widget .btn:hover,
+								html .woocommerce-page .subscribe_widget button:hover,
+								html .woocommerce-page .subscribe_widget .btn:hover,
+								
+								.wd-right-control-panel .shopping-cart .dropdown_footer p a.button:hover,
+								.wd-right-control-panel input#searchsubmit:hover</selector>
+					</f2>
+				</frontend>
+			</item>					
+			<item>
+				<name>Button Secondary  Hover</name>
+				<slug>button_secondary_hover</slug>
+				<std>#3c3b48</std>
+				<frontend>
+					<f1>
+						<attribute>border-color</attribute>
+						<selector>html  button.button-white:hover,
+								html  input.button-white:hover,
+								html  a.button-white:hover,
+								html  .woocommerce button.button-white:hover,
+								html  .woocommerce input.button-white:hover,
+								html  .woocommerce a.button-white:hover,
+								html  .woocommerce-page button.button-white:hover,
+								html  .woocommerce-page input.button-white:hover,
+								html  .woocommerce-page a.button-white:hover</selector>
+					</f1>
+					<f2>
+						<attribute>color</attribute>
+						<selector>html  button.button-white:hover,
+								html  input.button-white:hover,
+								html  a.button-white:hover,
+								html  .woocommerce button.button-white:hover,
+								html  .woocommerce input.button-white:hover,
+								html  .woocommerce a.button-white:hover,
+								html  .woocommerce-page button.button-white:hover,
+								html  .woocommerce-page input.button-white:hover,
+								html  .woocommerce-page a.button-white:hover</selector>
+					</f2>
+				</frontend>
+			</item>			
+		</items>
+	</button2>
+	<product>
+		<text>Product Color</text>
+		<items>
+			<item>
+				<name>Name color</name>
+				<slug>p_name</slug>
+				<std>#3c3b48</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>h1 a, h2 a, h3 a, h4 a, h5 a, h6 a</selector>
+					</f1>
+				</frontend>
+			</item>
+			<item>
+				<name>Name color hover</name>
+				<slug>p_name_hover</slug>
+				<std>#ed764f</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover</selector>
+					</f1>
+				</frontend>
+			</item>
+			<item>
+				<name>Price Color</name>
+				<slug>p_price</slug>
+				<std>#303030</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.price, .woocommerce #content div.product p.price, .woocommerce #content div.product span.price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-page #content div.product p.price, .woocommerce-page #content div.product span.price, .woocommerce-page div.product p.price, .woocommerce-page div.product span.price</selector>
+					</f1>
+				</frontend>
+			</item>
+			<item>
+				<name>Rating Color</name>
+				<slug>p_rating</slug>
+				<std>#ed764f</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>html .woocommerce .star-rating span</selector>
+					</f1>
+				</frontend>
+			</item>						
+		</items>
+	</product>
+</items_setting>

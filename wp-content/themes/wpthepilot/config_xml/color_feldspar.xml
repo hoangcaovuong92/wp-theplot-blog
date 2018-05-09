@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Name: Feldspar
+Slug: color_feldspar
+Description: custom color for Feldspar.
+-->
+<items_setting>
+	<general>
+		<text>General</text>
+		<items>
+			<background_item>
+				<name>Background Color</name>
+				<slug>bg_color</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>body</selector>
+					</f1>
+				</frontend>
+			</background_item>
+			<item>
+				<name>Text Color</name>
+				<slug>text_color</slug>
+				<std>#646464</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>body, button, input, select, textarea, a, .wd_meta_loop form.woocommerce-ordering select, .woocommerce div.product .image_summary .entry-summary .wd_product_sku .product_sku, .woocommerce div.product .image_summary .entry-summary .product_meta span a, .woocommerce div.product .woocommerce-tabs ul.nav-tabs li, .woocommerce div.product .woocommerce-tabs ul.nav-tabs li a, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review table.woocommerce-checkout-review-order-table tbody tr td.product-name, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review table.woocommerce-checkout-review-order-table tfoot tr td #shipping_method, html .woocommerce table.shop_table tbody tr td.product-quantity input, html .woocommerce nav.woocommerce-pagination ul li a.page-numbers, .wp-pagenavi span, .wp-pagenavi a, .wd-sidebar.sidebar-content .xoxo .widget_customrecent li.item .author a, .wd-sidebar.sidebar-content .xoxo .widget_layered_nav ul li a, .wd-sidebar.sidebar-content .xoxo .widget_product_tag_cloud .tagcloud a, html .vc_progress_bar .vc_single_bar .vc_label, html .vc_progress_bar.vc_progress-bar-color-black .vc_single_bar .vc_label, html .vc_progress_bar .vc_general.vc_single_bar.vc_progress-bar-color-black .vc_label, html .vc_tta-tabs.vc_tta-style-flat.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab a, html .vc_tta-tabs.vc_tta-color-grey.vc_tta-tabs-position-left .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab a, .grey-box-circle-icon.ts-list-item > span b, .classic-step-image ul.ts-horizontal-steps-list li.ts-horizontal-steps-item:before, .sc_testimonial .project .sky-carousel .sc-content-wrapper .sc-content-container .sc-content .job, .wd_meta_loop form.woocommerce-ordering select, .woocommerce div.product .image_summary .entry-summary .wd_product_sku .product_sku, .woocommerce div.product .image_summary .entry-summary .product_meta span a, .woocommerce div.product .woocommerce-tabs ul.nav-tabs li, .woocommerce div.product .woocommerce-tabs ul.nav-tabs li a</selector>
+					</f1>
+					<f2>
+						<attribute>border-color</attribute>
+						<selector>html .vc_tta-accordion.vc_tta.vc_general.vc_tta-style-classic.vc_tta-color-white .vc_tta-panels-container .vc_tta-panel.vc_active</selector>
+					</f2>
+				</frontend>
+			</item>		
+			<item>
+				<name>Primary Color</name>
+				<slug>primary_color</slug>
+				<std>#c38b70</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>a:hover, a:focus, .wd_meta_loop #options.gridlist-toggle ul.option-set li.active,.woocommerce div.product .image_summary .entry-summary .product_meta span a:hover, .woocommerce div.product .woocommerce-tabs .tab-content .entry-content #reviews #comments .commentlist li .comment-text .meta strong, .woocommerce .woocommerce-checkout #accordion-billing .accordion-body .accordion-inner label .required, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner .accordion-heading h3.heading-title, html .woocommerce table.shop_table tbody tr td.product-removelink .remove:hover, html .woocommerce nav.woocommerce-pagination ul li a.page-numbers:hover, html .woocommerce nav.woocommerce-pagination ul li span.page-numbers.current, .header-middle .shopping-cart .cart_dropdown .dropdown_body ul.cart_list li .cart_item_wrapper a.wd_cart_title:hover, .header-middle .shopping-cart .cart_dropdown .dropdown_body ul.cart_list li .cart_item_wrapper .remove:hover, .list-posts li .item-content .post-info-content .post-title .heading-title a:hover, .list-posts li .item-content .post-info-content .author a, .shortcode-recent-blogs.grid-posts .post-info-content .heading-title a:hover, .shortcode-recent-blogs .post-info-content .heading-title a:hover, .related_post_slider .post-info-content .heading-title a:hover, .shortcode-recent-blogs.grid-posts .post-info-content .author a, .shortcode-recent-blogs .post-info-content .author a, .related_post_slider .post-info-content .author a, .single-content .single-post .post_inner .author a, .single-content .comments-area .comment-list li.comment .comment-body .comment-meta h3.comment-author, .single-content .comments-area .comment-list li.comment .comment-body .comment-meta h3.comment-author a, .single-content .comments-area .comment-list li.comment .comment-body .reply a:hover, .wp-pagenavi .current, .wd-sidebar.sidebar-content .xoxo .widget_customrecent li.item .entry-title a:hover, .wd-sidebar.sidebar-content .xoxo .widget_price_filter .price_slider_wrapper .ui-widget-content .ui-slider-handle, .wd-sidebar.sidebar-content .xoxo .widget_best_selling_product ul.product_list_widget li .content a.product-title-widget:hover, .single-portfolio .single-content .post_inner .wd-other-info .heading-title, .single-project .right_project .project-meta > div h5, html .vc_progress_bar.vc_progress-bar-color-bar_black .vc_single_bar .vc_bar:before, html .vc_tta-tabs.vc_tta-style-classic.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab:hover a, html .vc_tta-tabs.vc_tta-style-classic.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab.vc_active a, .wd_meta_loop #options.gridlist-toggle ul.option-set li.active, .widget-title, h4.widget_desc, .subscribe_widget form .button:before, .sidebar-content .subscribe_widget button:hover, html .woocommerce .sidebar-content .subscribe_widget button:hover, .widget_customrecent .detail a:hover, .widget_customrecent .detail .entry-meta:before, .widget_customrecent .detail  i, #recentcomments .comment-meta:before, #recentcomments .comment_author:before, .widget_categories li:hover > a, .widget_categories li.current-cat > a, .widget_projects_categories li:hover > a, .widget_projects_categories li:hover > span, .widget_product_categories ul li.current-cat > span, .widget_product_categories ul li:hover > span,.widget_product_categories ul li:hover > a, .widget_product_categories ul li.current-cat > a, .woocommerce .widget_top_rated_products ul.product_list_widget li a:hover, .woocommerce-page .widget_top_rated_products ul.product_list_widget li a:hover, .widget_twitterupdate ul li.status-item .tweet-content a, .widget_twitterupdate ul li .avatar, .header-top-right-area .wd-header-search-control a:hover, .header-top-right-area .header-top-custom-sidebar a:hover, .header-top-right-area .header-top-account a:hover, .header-top-right-area .wd_tini_wishlist_wrapper a:hover, .header-top-left-area ul .social-icons ul li a:hover, .simple_blog_recent .post-info-content .author a, .simple_blog_recent .post-info-thumbnail .author a, html #main-content .widget_customrecent ul.recentposts li.item .media .detail .author a  						
+						</selector>
+					</f1>
+					<f2>
+						<attribute>background-color</attribute>
+						<selector>.woocommerce div.product .woocommerce-tabs ul.nav-tabs li a:hover, .woocommerce div.product .woocommerce-tabs ul.nav-tabs li.active a, .header-middle .wd_mega_menu_wrapper .ubermenu .ubermenu-item .ubermenu-submenu-drop li.ubermenu-item-header > a > span.ubermenu-target-title:before, .single-content .comments-area .title h3:before, .wd-sidebar.sidebar-content .widget_title_wrapper .widget-title:before, #portfolio-container ul.portfolio-filter li a:before, .wd_price_table.style1 .price_table_inner:hover ul li.table_title, .wd_price_table.style1 .acitve_price ul li.table_title, .wd_price_table.style2 .price_table_inner ul li.table_title:before, .wd_price_table.style3 .price_table_inner:hover ul li.price_button a, .wd_price_table.style3 .acitve_price ul li.price_button a, .icon-style-5 .item:hover .number, html .vc_tta-tabs.vc_tta-style-modern.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab a:before, html .vc_tta-tabs.vc_tta-style-modern.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab.vc_active a:before, html .vc_tta-tabs.vc_tta-style-flat.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab a:before, html .vc_tta-tabs.vc_tta-style-flat.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab.vc_active a:before, html .vc_tta-tabs.vc_tta-color-grey.vc_tta-tabs-position-left .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab.vc_active a, .wd_myaccount_menu .title:before, h2.my-account-title:before, html .vc_tta-accordion.vc_tta.vc_general.vc_tta-style-classic.vc_tta-color-white .vc_tta-panels-container .vc_tta-panel.vc_active .vc_tta-controls-icon-position-right .vc_tta-controls-icon, .box-icon-circle .ts-font-icon.ts-awesome-check, .sc_testimonial .project .sky-carousel .sc-content-wrapper .sc-content-container .sc-content h2:before, .testimonial-item.testimonial.style3 .detail:before, .wd-sidebar.sidebar-content .xoxo .widget-container .widget_title_wrapper .widget-title:before, .widget_flickr div.flickr_badge_image a:before, .widget_productaz ul li:hover a, .style6 .wd_testimonial_slider .testimonial-item .detail .testimonial-content:before 
+						</selector>
+					</f2>					
+				</frontend>
+			</item>	
+			<item>
+				<name>Title Color 1</name>
+				<slug>title_color</slug>
+				<std>#141414</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>h1, h2, h3, h4, h5, h6, blockquote, .woocommerce div.product .image_summary .entry-summary .availability .wd_availability , .woocommerce div.product .image_summary .entry-summary .wd_product_sku, .woocommerce div.product .image_summary .entry-summary form.variations_form table.variations tr td.label label, .woocommerce div.product .image_summary .entry-summary .cart .grouped_products h3.wd_product a, .woocommerce div.product .image_summary .entry-summary .cart .grouped_products table.variations td.label label, .woocommerce div.product .image_summary .entry-summary .product_meta span, .woocommerce div.product .woocommerce-tabs .tab-content .entry-content #reviews #comments .commentlist li .comment-text .meta time, .woocommerce .woocommerce-checkout #accordion-billing .accordion-heading h3, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review table.woocommerce-checkout-review-order-table tbody tr td.product-total, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review table.woocommerce-checkout-review-order-table tfoot tr td, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review #payment ul.payment_methods label, html .woocommerce table.shop_table thead tr th, html .woocommerce table.shop_table tbody tr td.product-price .amount, html .woocommerce table.shop_table tbody tr td.product-removelink .remove, .woocommerce .cart-collaterals .cart-collaterals-top .cart_totals .cart_totals_wrapper table tr td .amount, .custom-products-shortcode .products section .product-meta-wrapper .product-meta-content h3.product-title a, .ts-dropcap, .single-content .comments-area .comment-list li.comment .comment-body .comment-meta .blog-datetime, .single-content .comments-area #respond #commentform span.label, .wd-sidebar.sidebar-content .widget_title_wrapper .widget-title, .wd-sidebar.sidebar-content .xoxo .widget-container .widget_title_wrapper .widget-title, .wd-sidebar.sidebar-content .xoxo .widget_teammmember .wd_member_info p, #portfolio-container ul.portfolio-filter li a, #portfolio-container ul.portfolio-filter li:hover a, #portfolio-container ul.portfolio-filter li.active a, html .page-template-page-templatescomming-soon-php h3, html .page-template-page-templatescomming-soon_2-php h3, .wpcf7-form .contact-form-input > p, .wpcf7-form .contact-form-area p, .wd_price_table.style2 .price_table_inner ul li.table_title h1, .wd_price_table.style2 .price_table_inner ul li.prices .price_in_table, .wd_price_table.style3 .price_table_inner ul li.table_title .prices .price_in_table, .icon-style-5 .item h3, html .vc_progress_bar.vc_progress-bar-color-black .vc_single_bar .vc_label, html .vc_progress_bar.vc_progress-bar-color-bar_black .vc_single_bar .vc_label, html .vc_pie_chart h4.wpb_pie_chart_heading, html .vc_tta-tabs.vc_tta-style-classic.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab a, html .vc_tta-tabs.vc_tta-style-modern.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab a, html .vc_tta-tabs.vc_tta-style-flat.vc_tta-color-white.vc_tta-tabs-position-top .vc_tta-tabs-list li.vc_tta-tab.vc_active a, .wd_myaccount_menu .title , h2.my-account-title, html .woocommerce form.checkout_coupon label, html .woocommerce form.login label, html .woocommerce form.register label, html .wd_meet_team.style2 > div .info h3 a, html .wd_meet_team.style2 > div .info em, html .wd_meet_team.style2 > div .info .social a, html .vc_tta-accordion.vc_tta.vc_general.vc_tta-style-classic.vc_tta-color-white .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title > a, html .vc_tta.vc_general.vc_tta-style-classic.vc_tta-color-grey .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title > a, .sc_testimonial .project .sky-carousel .sc-content-wrapper .sc-content-container .sc-content .name p, .testimonial-item.testimonial.style3 .detail .name, .testimonial-item.testimonial.style3 .detail .job, .style4 .wd_testimonial_slider .testimonial-item.testimonial .detail .name, .style4 .wd_testimonial_slider .testimonial-item.testimonial .detail .job, .ts-fancy-tabs-main-wrapper .pws_tabs_container.pws_tabs_horizontal_top ul.pws_tabs_controlls li.pws_tabs_controlls_item a.pws_tabs_controlls_link, .title-featured</selector>
+					</f1>
+				</frontend>
+			</item>
+			<item>
+				<name>Title Color 2</name>
+				<slug>title_color_2</slug>
+				<std>#323232</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review table.woocommerce-checkout-review-order-table thead tr th, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review table.woocommerce-checkout-review-order-table tfoot tr th, .woocommerce .cart-collaterals .cart-collaterals-top > div .shipping_calculator .shipping-calculator-form .form-row label, .woocommerce .cart-collaterals .cart-collaterals-top .cart_totals .cart_totals_wrapper table tr th, .custom-products-shortcode .products section .product-meta-wrapper .product-meta-content .price, .custom-products-shortcode .products section .product-meta-wrapper .product-meta-content .amount, .woocommerce .woocommerce-checkout #accordion-billing .accordion-body .accordion-inner label</selector>
+					</f1>
+				</frontend>
+			</item>
+		</items>
+	</general>	
+	<header>
+		<text>Page Header</text>
+		<items>
+			<item>
+				<name>Background Dropdown Menu/Cart</name>
+				<slug>h_bg_drop_color</slug>
+				<std>#141414</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>.header-middle .shopping-cart .cart_dropdown, .header-middle .shopping-cart .cart_dropdown .size_empty, .header-middle .wd_mega_menu_wrapper .ubermenu .ubermenu-item .ubermenu-submenu-drop</selector>
+					</f1>
+				</frontend>
+			</item>			
+			<item>
+				<name>Text Color</name>
+				<slug>h_text</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.header-top-left-area ul .social-icons ul li a, .header-top-right-area .wd-header-search-control a, .header-top-right-area .header-top-custom-sidebar a, .header-top-right-area .header-top-account a, .header-top-right-area .wd_tini_wishlist_wrapper a, .header-top-right-area .wd-header-search-control span, .header-middle .shopping-cart .cart_size a</selector>
+					</f1>
+				</frontend>
+			</item>	
+			<item>
+				<name>Text Menu Color</name>
+				<slug>h_menu_text</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.header-middle .wd_mega_menu_wrapper nav.ubermenu ul.ubermenu-nav > li > a</selector>
+					</f1>
+				</frontend>
+			</item>		
+			<item>
+				<name>Text Color Dropdown Menu</name>
+				<slug>h_drop_menu_text</slug>
+				<std>#959595</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.header-middle .wd_mega_menu_wrapper .ubermenu .ubermenu-item .ubermenu-submenu-drop, .header-middle .wd_mega_menu_wrapper .ubermenu .ubermenu-item .ubermenu-submenu-drop li a</selector>
+					</f1>
+				</frontend>
+			</item>				
+		</items>
+	</header>
+	<footer>
+		<text>Page Footer</text>
+		<items>
+			<background_item>
+				<name>Background Footer Color</name>
+				<slug>f_bg_color</slug>
+				<std>#1e1e1e</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>footer#footer</selector>
+					</f1>
+				</frontend>
+			</background_item>
+			<item>
+				<name>Footer Color 1</name>
+				<slug>f_color_1</slug>
+				<std>#c38b70</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>footer#footer ul .textwidget ul.address li i, footer#footer .widget-container.widget_customrecent ul.recentposts li.item .detail .entry-title a:hover, footer#footer .widget-container.widget_customrecent ul.recentposts li.item .detail .entry-title a:hover</selector>
+					</f1>
+					<f2>
+						<attribute>background-color</attribute>
+						<selector>footer#footer ul h3.widget-title:before</selector>
+					</f2>
+				</frontend>
+			</item>
+			<item>
+				<name>Footer Color 2</name>
+				<slug>f_color_2</slug>
+				<std>#969696</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>footer#footer, footer#footer ul li a, footer#footer .widget-container.widget_customrecent ul.recentposts li.item .detail .entry-title .entry-desc</selector>
+					</f1>
+				</frontend>
+			</item>	
+			<item>
+				<name>Footer Color 3</name>
+				<slug>f_color_3</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>footer#footer ul h3.widget-title, footer#footer ul li a:hover, footer#footer .widget-container.widget_customrecent ul.recentposts li.item .detail .entry-title a</selector>
+					</f1>
+				</frontend>
+			</item>	
+			<item>
+				<name>Footer Background Bottom Color</name>
+				<slug>f_bkg_bot_color</slug>
+				<std>#141414</std>
+				<frontend>
+					<f1>
+						<attribute>background-color</attribute>
+						<selector>.third-footer-widget-area</selector>
+					</f1>
+				</frontend>
+			</item>			
+		</items>
+	</footer>
+	<button>
+		<text>Button Primary Color</text>
+		<items>			
+			<item>
+				<name>Button Color 1</name>
+				<slug>button_color_1</slug>
+				<std>#c38b70</std>
+				<frontend>
+					<f1>
+						<attribute>border-color</attribute>
+						<selector>a.btn-pur.btn-pink, a.btn-pur.btn-color, .custom-products-shortcode .products section .product-meta-wrapper .list_add_to_cart a.button:hover</selector>
+					</f1>
+					<f2>
+						<attribute>color</attribute>
+						<selector>.custom-products-shortcode .products section .product-meta-wrapper .list_add_to_cart a.button:hover</selector>
+					</f2>
+					<f3>
+						<attribute>background-color</attribute>
+						<selector>.wd-products-wrapper.grid-list-action .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .yith-wcwl-add-to-wishlist > div.show:hover a, .wd-products-wrapper.grid-list-action .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_compare:hover, .wd-products-wrapper.grid-list-action .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_quickshop_handler:hover, .wd-products-wrapper.grid-list-action .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_quickshop_handler:hover,.wd-products-wrapper.grid-list-action .products section .product-thumbnail-wrapper .list_add_to_cart a:hover, .woocommerce div.product .image_summary .entry-summary .cart .button:hover, .woocommerce div.product .image_summary .entry-summary .cart a.wd_compare:hover, .woocommerce div.product .image_summary .entry-summary .yith-wcwl-add-to-wishlist .show a:hover, .woocommerce div.product .image_summary .entry-summary a.wd_compare:hover, .related_wrapper .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .yith-wcwl-add-to-wishlist > div.show:hover a, .cross_content .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .yith-wcwl-add-to-wishlist > div.show:hover a, .woocommerce .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .yith-wcwl-add-to-wishlist > div.show:hover a, .related_wrapper .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_compare:hover, .related_wrapper .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_quickshop_handler:hover, .cross_content .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_compare:hover, .cross_content .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_quickshop_handler:hover, .woocommerce .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_compare:hover, .woocommerce .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_quickshop_handler:hover, .related_wrapper .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_quickshop_handler:hover, .cross_content .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_quickshop_handler:hover, .woocommerce .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .wd_quickshop_handler:hover, .related_wrapper .products section .product-thumbnail-wrapper .list_add_to_cart a:hover, .cross_content .products section .product-thumbnail-wrapper .list_add_to_cart a:hover, .woocommerce .products section .product-thumbnail-wrapper .list_add_to_cart a:hover, .wd-sidebar.sidebar-content .xoxo .widget_price_filter .price_slider_wrapper .price_slider_amount button.button:hover, .wd-sidebar.sidebar-content .xoxo .widget_price_filter .price_slider_wrapper .price_slider_amount input[type="button"]:hover, .wd-sidebar.sidebar-content .xoxo .widget_price_filter .price_slider_wrapper .price_slider_amount input[type="reset"]:hover, .wd-sidebar.sidebar-content .xoxo .widget_price_filter .price_slider_wrapper .price_slider_amount input[type="submit"]:hover, a.btn-pur.btn-pink, a.btn-pur.btn-color </selector>
+					</f3>
+				</frontend>
+			</item>
+			<item>
+				<name>Button Color 2</name>
+				<slug>button_color_2</slug>
+				<std>#141414</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.wd-products-wrapper.grid-list-action .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse.show a, .wd-products-wrapper.grid-list-action .products section .product-thumbnail-wrapper .wd_woocommerce_prod_btns_group .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse.show a, .woocommerce .wd_form_cart .wd_cart_buttons a.button, .woocommerce .wd_form_cart .wd_cart_buttons a.button, .woocommerce .cart-collaterals .cart-collaterals-top > div input.button, .woocommerce .cart-collaterals .cart-collaterals-top > div button.button, .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="button"], .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="reset"], .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="submit"], button.button.button1, input.button1[type="button"], input.button1[type="reset"], input.button1[type="submit"], a.button.button1, .woocommerce a.button.button1, .woocommerce button.button.button1, .woocommerce input.button1[type="button"], .woocommerce input.button1[type="reset"], .woocommerce input.button1[type="submit"], .woocommerce input.button.button1, .header-middle .shopping-cart .cart_dropdown .dropdown_footer a.button.cart, .header-middle .wd_mega_menu_wrapper nav.ubermenu ul.ubermenu-nav > li .ubermenu-content-block .static-menu a.button, html .projects .wd-projects ul.projects li.project .project-inner-item .button </selector>
+					</f1>
+					<f2>
+						<attribute>border-color</attribute>
+						<selector>.woocommerce div.product .image_summary .entry-summary .yith-wcwl-add-to-wishlist .show a, .woocommerce div.product .image_summary .entry-summary a.wd_compare, button.button.button1, input.button1[type="button"], input.button1[type="reset"], input.button1[type="submit"], a.button.button1, .woocommerce a.button.button1, .woocommerce button.button.button1, .woocommerce input.button1[type="button"], .woocommerce input.button1[type="reset"], .woocommerce input.button1[type="submit"], .woocommerce input.button.button1, html .projects .wd-projects ul.projects li.project .project-inner-item .button</selector>
+					</f2>
+					<f3>
+						<attribute>background-color</attribute>
+						<selector>.woocommerce div.product .woocommerce-tabs .tab-content .entry-content #reviews #review_form_wrapper #review_form .form-submit input.submit, button.button, input[type="button"], input[type="reset"], input[type="submit"], a.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce a.button.alt, .woocommerce button.button, .woocommerce input[type="button"], .woocommerce input[type="reset"], .woocommerce input[type="submit"], .woocommerce input.button, .woocommerce div.product .image_summary .entry-summary .cart .button, .woocommerce div.product .woocommerce-tabs .tab-content .entry-content #reviews #review_form_wrapper #review_form .form-submit input.submit, .woocommerce .wd_form_cart .wd_cart_buttons a.button:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div input.button:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div button.button:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="button"]:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="reset"]:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="submit"]:hover, button.button.button1:hover, input.button1[type="button"]:hover, input.button1[type="reset"]:hover, input.button1[type="submit"]:hover, a.button.button1:hover, .woocommerce a.button.button1:hover, .woocommerce button.button.button1:hover, .woocommerce input.button1[type="button"]:hover, .woocommerce input.button1[type="reset"]:hover, .woocommerce input.button1[type="submit"]:hover, .woocommerce input.button.button1:hover, .header-wrapper .wd-right-control-panel .wd-search-box .button_search button, .header-middle .shopping-cart .cart_dropdown .dropdown_footer a.button.cart:hover, .list-posts li .item-content .post-info-content .read-more a:hover, .shortcode-recent-blogs.grid-posts .post-info-content .button:hover, .shortcode-recent-blogs .post-info-content .button:hover, .related_post_slider .post-info-content .button:hover, .single-content .single-post .navi > div a:hover, html .projects .wd-projects ul.projects li.project .project-inner-item .button:hover, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review #payment .place-order #place_order</selector>
+					</f3>
+				</frontend>
+			</item>
+			<item>
+				<name>Button Color 3</name>
+				<slug>button_color_3</slug>
+				<std>#646464</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.header-middle .shopping-cart .cart_dropdown .dropdown_footer a.button.checkout</selector>
+					</f1>
+					<f2>
+						<attribute>border-color</attribute>
+						<selector>.header-middle .shopping-cart .cart_dropdown .dropdown_footer a.button.checkout</selector>
+					</f2>
+					<f3>
+						<attribute>background-color</attribute>
+						<selector>.woocommerce div.product .woocommerce-tabs .tab-content .entry-content #reviews #review_form_wrapper #review_form .form-submit input.submit:hover, button.button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button.button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, a.button:focus, a.button:hover, .woocommerce #respond input#submit:focus, .woocommerce #respond input#submit:hover, .woocommerce a.button:focus, .woocommerce a.button:hover, .woocommerce a.button.alt:focus, .woocommerce a.button.alt:hover, .woocommerce button.button:focus, .woocommerce input[type="button"]:focus, .woocommerce input[type="reset"]:focus, .woocommerce input[type="submit"]:focus, .woocommerce button.button:hover, .woocommerce input[type="button"]:hover, .woocommerce input[type="reset"]:hover, .woocommerce input[type="submit"]:hover, .woocommerce input.button:focus, .woocommerce input.button:hover, .header-middle .shopping-cart .cart_dropdown .dropdown_footer a.button.checkout:hover, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review #payment .place-order #place_order:hover</selector>
+					</f3>
+				</frontend>
+			</item>
+			<item>
+				<name>Button Color 4</name>
+				<slug>button_color_4</slug>
+				<std>#fff</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.woocommerce div.product .woocommerce-tabs .tab-content .entry-content #reviews #review_form_wrapper #review_form .form-submit input.submit:hover, .woocommerce div.product .woocommerce-tabs .tab-content .entry-content #reviews #review_form_wrapper #review_form .form-submit input.submit, button.button, input[type="button"], input[type="reset"], input[type="submit"], a.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce a.button.alt, .woocommerce button.button, .woocommerce input[type="button"], .woocommerce input[type="reset"], .woocommerce input[type="submit"], .woocommerce input.button, button.button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button.button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, a.button:focus, a.button:hover, .woocommerce #respond input#submit:focus, .woocommerce #respond input#submit:hover, .woocommerce a.button:focus, .woocommerce a.button:hover, .woocommerce a.button.alt:focus, .woocommerce a.button.alt:hover, .woocommerce button.button:focus, .woocommerce input[type="button"]:focus, .woocommerce input[type="reset"]:focus, .woocommerce input[type="submit"]:focus, .woocommerce button.button:hover, .woocommerce input[type="button"]:hover, .woocommerce input[type="reset"]:hover, .woocommerce input[type="submit"]:hover, .woocommerce input.button:focus, .woocommerce input.button:hover, .header-middle .shopping-cart .cart_dropdown .dropdown_footer a.button.checkout:hover, .woocommerce div.product .image_summary .entry-summary .cart .button, .woocommerce div.product .woocommerce-tabs .tab-content .entry-content #reviews #review_form_wrapper #review_form .form-submit input.submit, .woocommerce .wd_form_cart .wd_cart_buttons a.button:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div input.button:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div button.button:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="button"]:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="reset"]:hover, .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="submit"]:hover, button.button.button1:hover, input.button1[type="button"]:hover, input.button1[type="reset"]:hover, input.button1[type="submit"]:hover, a.button.button1:hover, .woocommerce a.button.button1:hover, .woocommerce button.button.button1:hover, .woocommerce input.button1[type="button"]:hover, .woocommerce input.button1[type="reset"]:hover, .woocommerce input.button1[type="submit"]:hover, .woocommerce input.button.button1:hover, .header-wrapper .wd-right-control-panel .wd-search-box .button_search button, .header-middle .shopping-cart .cart_dropdown .dropdown_footer a.button.cart:hover, .list-posts li .item-content .post-info-content .read-more a:hover, .shortcode-recent-blogs.grid-posts .post-info-content .button:hover, .shortcode-recent-blogs .post-info-content .button:hover, .related_post_slider .post-info-content .button:hover, .single-content .single-post .navi > div a:hover, html .projects .wd-projects ul.projects li.project .project-inner-item .button:hover, .woocommerce .woocommerce-checkout #accordion-review .accordion-review-inner #collapse-order-review #order_review #payment .place-order #place_order</selector>
+					</f1>
+					<f2>
+						<attribute>border-color</attribute>
+						<selector>.header-middle .shopping-cart .cart_dropdown .dropdown_footer a.button.cart:hover</selector>
+					</f2>
+					<f3>
+						<attribute>background-color</attribute>
+						<selector>.woocommerce div.product .image_summary .entry-summary .yith-wcwl-add-to-wishlist .show a, .woocommerce div.product .image_summary .entry-summary a.wd_compare, .woocommerce .wd_form_cart .wd_cart_buttons a.button, .woocommerce .cart-collaterals .cart-collaterals-top > div input.button, .woocommerce .cart-collaterals .cart-collaterals-top > div button.button, .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="button"], .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="reset"], .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="submit"], .header-middle .shopping-cart .cart_dropdown .dropdown_footer a.button.cart, .header-middle .wd_mega_menu_wrapper nav.ubermenu ul.ubermenu-nav > li .ubermenu-content-block .static-menu a.button, html .projects .wd-projects ul.projects li.project .project-inner-item .button</selector>
+					</f3>
+				</frontend>
+			</item>	
+			<item>
+				<name>Button Color 5</name>
+				<slug>button_color_5</slug>
+				<std>#d7d7d7</std>
+				<frontend>
+					<f1>
+						<attribute>border-color</attribute>
+						<selector>.woocommerce .wd_form_cart .wd_cart_buttons a.button, .woocommerce .cart-collaterals .cart-collaterals-top > div input.button, .woocommerce .cart-collaterals .cart-collaterals-top > div button.button, .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="button"], .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="reset"], .woocommerce .cart-collaterals .cart-collaterals-top > div input[type="submit"]</selector>
+					</f1>
+				</frontend>
+			</item>	
+		</items>
+	</button>
+	<product>
+		<text>Product Color</text>
+		<items>
+			<item>
+				<name>Name color</name>
+				<slug>p_name</slug>
+				<std>#323232</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>html .woocommerce table.shop_table tbody tr td.product-name .wd_product_meta h3 a, .wd-products-wrapper.grid-list-action .products section .product-meta-wrapper h3.product-title a, .related_wrapper .products section .product-meta-wrapper h3.product-title a, .cross_content .products section .product-meta-wrapper h3.product-title a, .woocommerce .products section .product-meta-wrapper h3.product-title a, .woocommerce .cart-collaterals .cart-collaterals-top > div h3.heading-title, .wd-sidebar.sidebar-content .xoxo .widget_best_selling_product ul.product_list_widget li .content a.product-title-widget, .wd-products-wrapper.grid-list-action .products section .product-meta-wrapper h3.product-title a</selector>
+					</f1>
+				</frontend>
+			</item>
+			<item>
+				<name>Name color hover</name>
+				<slug>p_name_hover</slug>
+				<std>#c38b70</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.wd-products-wrapper.grid-list-action .products section .product-meta-wrapper h3.product-title a:hover, .related_wrapper .products section .product-meta-wrapper h3.product-title a:hover, .cross_content .products section .product-meta-wrapper h3.product-title a:hover, .woocommerce .products section .product-meta-wrapper h3.product-title a:hover, html .woocommerce table.shop_table tbody tr td.product-name .wd_product_meta h3 a:hover</selector>
+					</f1>
+				</frontend>
+			</item>
+			<item>
+				<name>Price Color 1</name>
+				<slug>p_price</slug>
+				<std>#c38b70</std>
+				<frontend>
+					<f1>
+						<attribute>color</attribute>
+						<selector>.wd-products-wrapper.grid-list-action .products section .product-meta-wrapper .price .amount, .woocommerce div.product .image_summary .entry-summary .price, .woocommerce div.product .image_summary .entry-summary .cart .grouped_products table.variations td .amount, .related_wrapper .products section .product-meta-wrapper .price .amount, .cross_content .products section .product-meta-wrapper .price .amount, .woocommerce .products section .product-meta-wrapper .price .amount, html .woocommerce table.shop_table tbody tr td.product-subtotal .amount, .woocommerce .cart-collaterals .cart-collaterals-top .cart_totals .cart_totals_wrapper table tr td strong .amount, .header-middle .shopping-cart .cart_dropdown .dropdown_body ul.cart_list li .cart_item_wrapper .quantity .amount, .wd-sidebar.sidebar-content .xoxo .widget_best_selling_product ul.product_list_widget li .content .amount, html .woocommerce .widget_shopping_cart .total .amount</selector>
+					</f1>
+				</frontend>
+			</item>		
+		</items>
+	</product>
+</items_setting>
